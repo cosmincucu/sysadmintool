@@ -175,7 +175,7 @@ Function Get-LocalConnections{
 .Synopsis
    Get Local connections
 .DESCRIPTION
-   This commandlet gets the local connections for the provided list of computers
+   This commandlet gets the number of local connections for the provided list of computers
 .EXAMPLE
    Get-LocalConnections -ComputerName "computer1.lab.pri" -Port "80"
 #>
