@@ -7,7 +7,7 @@ $DefaultSQLServer = "629145-SYSADMIN.rslc.local"
 Function Update-IISLogs{
 <#
 .Synopsis
-   Function used to insert/update the servers event IIS logs from a domain to a MSSQL database
+   Function used to insert/update the servers event IIS logs from a domain to a MSSQL database. There are default parameters set-up, they can be changed to accomodate the new infrastructure.
 .DESCRIPTION
    Update-IISLogs
 .EXAMPLE
